@@ -27,12 +27,37 @@
 <body>
 
   <!-- NAVBAR, HERO, etc. (Todo esto se queda igual) -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">...</nav>
+  <!-- 1. BARRA DE NAVEGACIÓN -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <!-- Cambia "Joyas Del Alma" por el nombre de tu marca -->
+        <strong>Joyas Del Caribe</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#catalogo">Catálogo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!-- 2. SECCIÓN PRINCIPAL (HERO) -->
   <header class="hero-section text-center">
-      <h1 class="display-3">Elegancia que Define tu Esencia</h1>
-      <p class="lead fs-4">Descubre nuestra colección exclusiva de joyas hechas a mano.</p>
+    <div class="container">
+      <!-- Pon tu logo aquí si tienes uno -->
+      <!-- <img src="tu-logo.png" alt="Logo de Joyas Del Alma" class="mb-4" width="150"> -->
+      <h1 class="display-4">Elegancia que Perdura</h1>
+      <p class="lead">Descubre nuestra colección exclusiva de joyas hechas a mano.</p>
+    </div>
   </header>
-
 
   <!-- SECCIÓN DEL CATÁLOGO - SIMPLIFICADA -->
   <main class="container mt-5" id="catalogo">
@@ -48,7 +73,7 @@
   <!-- SECCIÓN DE CONTACTO Y FOOTER (Se quedan igual) -->
   <section class="py-5 bg-light" id="contacto">
     <div class="container text-center">
-      <h2>¿Te interesa una pieza?</h2>
+      <h2>¿Te interesa algo en especial?</h2>
       <p class="lead">Contáctanos directamente o síguenos en nuestras redes para no perderte las novedades.</p>
       <a href="https://wa.me/1234567890" class="btn btn-success btn-lg mb-3">
         <i class="bi bi-whatsapp"></i> Contactar por WhatsApp
